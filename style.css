@@ -1,0 +1,57 @@
+body {
+    background: url(ondieki.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: none;
+    font-family: serif;
+    color:white;}
+  
+     ul{
+    margin: 15px;
+    padding: 6px;
+    list-style: none;
+  
+  }
+     ul li {
+      width:100px;
+      height: 50 px;
+      opacity: .9;
+      text-align: left;
+      font-size: 22px;
+      float: left;
+      padding: 8px;
+  }
+  
+    ul li a {
+      color: white;
+      text-align: center;
+  
+    }
+    ul li a:hover {
+       background-color:darkgreen;
+       float: left;
+       
+  }
+  ul li ul li {
+    display: none;
+    position: relative;
+  }
+  ul li:hover ul li{
+    display: inline-table;
+    float: right;
+    position: relative;
+  }
+  p{
+     position:fixed;
+     bottom :0;width:145%;
+     text-align:center;
+     color:white;
+     font-family: serif;
+     font-weight: 700;
+     font-size:15 ;
+    
+  }
+  
+  
+  
+  
